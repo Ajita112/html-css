@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(135deg, #0f172a, #020617);
+            background-image: url('bg.png');
+            
+        }
+        header {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 40px 20px;
+        }
+        header h1 {
+            font-size: 3rem;
+            font-weight: 700;
+            margin-bottom: 10px;
+            color: aliceblue;
+        }
+        header span {
+            color: #38bdf8;
+        }
+        header p {
+            font-size: 1.2rem;
+            color: #94a3b8;
+            margin-bottom: 30px;
+        }
+        .btn-group a {
+            display: inline-block;
+            margin: 0 10px;
+            padding: 12px 28px;
+            border-radius: 30px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: 0.3s ease;
+        }
+        
+        .btn-outline {
+            border: 2px solid #38bdf8;
+            color: aliceblue;
+        }
+        .btn-outline:hover {
+            background: #38bdf8;
+            color: #020617;
+        }
+        
+        footer {
+            background: #020617;
+            border-top: 1px solid #1e293b;
+            text-align: center;
+            padding: 25px 15px;
+            color: #94a3b8;
+        }
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 2.2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <div>
+        <h1>Hi, I'm <span>Ajita Shukla</span></h1>
+        <p>Student • Aspiring Developer • Data Science Enthusiast</p>
+        <p style="max-width:700px;margin:15px auto 0;font-size:1rem;color:#cbd5f5;line-height:1.6;">
+            Passionate about writing clean code, solving real‑world problems, and continuously
+            improving my skills in software development and data science. Actively building
+            projects and strengthening my foundation in algorithms, programming, and modern AI
+            technologies.<br><br>
+        </p>
+        <div class="btn-group">
+            <a href="https://github.com/Ajita112" target="_blank" class="btn-outline">GitHub</a>
+            <a href="https://www.linkedin.com/in/ajita-shukla111" target="_blank" class="btn-outline">LinkedIn</a>
+        </div>
+    </div>
+</header>
+
+<footer>
+    <p>© 2026 Ajita Shukla • Built with HTML & CSS</p>
+</footer>
+
+</body>
+</html>
